@@ -18,6 +18,7 @@ a:visited {
 
 i:hover {
   color: #ec770c;
+  transition: 0.2s;
 }
 
 html {
@@ -38,6 +39,7 @@ html {
   }
   .nav :hover {
     color: #ec770c;
+    transition: 0.4s;
   }
   .nav__logo {
     display: flex;
@@ -85,6 +87,7 @@ html {
   }
   .nav :hover {
     color: #ec770c;
+    transition: 0.2s;
   }
   .nav__logo {
     display: flex;
@@ -133,6 +136,7 @@ html {
   }
   .nav :hover {
     color: #ec770c;
+    transition: 0.2s;
   }
   .nav__logo {
     display: flex;
