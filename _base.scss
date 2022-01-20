@@ -1,0 +1,41 @@
+$font-body: "Roboto", sans-serif;
+$font-display: "Monoton", sans-serif;
+$color-primary: #ec770c;
+$color-secondary: #989898;
+$color-box: #212529;
+$shadow-large: 0 15px 5px 0 rgb(0 0 0 / 25%);
+$shadow-small: 0 10px 5px 0 rgb(0 0 0 / 25%);
+$gradient-body: linear-gradient(
+  180deg,
+  rgba(30, 30, 30, 1) 35%,
+  rgba(95, 95, 95, 0.85) 100%
+);
+$gradient-nav: linear-gradient(
+  180deg,
+  rgba(95, 95, 95, 0.5) 10%,
+  rgba(30, 30, 30, 0.85) 100%
+);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-body;
+}
+
+body {
+  background: $gradient-body;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+i:hover {
+  color: $color-primary;
+}
+
+html {
+  scroll-behavior: smooth;
+}
