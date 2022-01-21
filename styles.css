@@ -87,7 +87,7 @@ html {
   }
   .nav :hover {
     color: #ec770c;
-    transition: 0.2s;
+    transition: 0.4s;
   }
   .nav__logo {
     display: flex;
@@ -136,7 +136,7 @@ html {
   }
   .nav :hover {
     color: #ec770c;
-    transition: 0.2s;
+    transition: 0.4s;
   }
   .nav__logo {
     display: flex;
@@ -493,7 +493,7 @@ html {
   padding: 50px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 90px;
+  margin-bottom: 10px;
 }
 .contactMe__icon {
   display: flex !important;
@@ -506,6 +506,15 @@ html {
   align-items: center;
   box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.25);
   margin: 0 10 0 10;
+}
+
+.footer {
+  height: 6vh;
+  background: linear-gradient(180deg, rgba(95, 95, 95, 0.5) 10%, rgba(30, 30, 30, 0.85) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #212529;
 }
 
 .arrows {

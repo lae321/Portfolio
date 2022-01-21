@@ -582,7 +582,7 @@
     padding: 50px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
   }
 
   &__icon {
@@ -597,6 +597,15 @@
     box-shadow: $shadow-small;
     margin: 0 10 0 10;
   }
+}
+
+.footer {
+  height: 6vh;
+  background: $gradient-nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-box
 }
 
 .arrows {
