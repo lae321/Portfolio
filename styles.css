@@ -346,12 +346,7 @@ html {
     color: #ec770c;
     background: transparent;
   }
-}
-.highlight {
-  color: #ec770c;
-}
 
-@media screen and (max-width: 480px) {
   .landing {
     height: 100vh;
     display: flex;
@@ -374,16 +369,14 @@ html {
     font-size: 30px;
     margin: 0 0 200 0;
   }
-}
-@media screen and (max-width: 480px) {
+
   .sectionTitle {
     color: #989898;
     font-size: 40px;
     margin-left: 20px;
     padding: 0px;
   }
-}
-@media screen and (max-width: 480px) {
+
   .aboutMe__content {
     display: flex;
     flex-direction: column;
@@ -403,8 +396,7 @@ html {
     font-weight: normal;
     text-align: justify;
   }
-}
-@media screen and (max-width: 480px) {
+
   .techStack {
     display: flex;
     width: 100%;
@@ -425,8 +417,7 @@ html {
     box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.25);
     margin: 0 20 0 20;
   }
-}
-@media screen and (max-width: 480px) {
+
   .myWork__projects {
     display: flex;
     flex-direction: column;
@@ -443,6 +434,10 @@ html {
     box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.25);
   }
 }
+.highlight {
+  color: #ec770c;
+}
+
 .contactMe__box {
   display: flex;
   justify-content: center;

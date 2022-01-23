@@ -326,7 +326,7 @@
   }
 }
 
-// Nav mobile
+// Mobile
 @media screen and (max-width: 480px) {
   .nav {
     display: flex;
@@ -384,14 +384,8 @@
       background: transparent;
     }
   }
-}
 
-.highlight {
-  color: $color-primary;
-}
-
-// Landing mobile
-@media screen and (max-width: 480px) {
+  // Landing mobile
   .landing {
     height: 100vh;
     display: flex;
@@ -416,26 +410,17 @@
       font-size: 30px;
       margin: 0 0 200 0;
     }
-
-    // &__image {
-    //   width: 300px;
-    //   opacity: 0.8;
-    // }
   }
-}
 
-// Section title mobile
-@media screen and (max-width: 480px) {
+  // Section title mobile
   .sectionTitle {
     color: $color-secondary;
     font-size: 40px;
     margin-left: 20px;
     padding: 0px;
   }
-}
 
-// About me mobile
-@media screen and (max-width: 480px) {
+  // About me mobile
   .aboutMe {
     &__content {
       display: flex;
@@ -459,10 +444,8 @@
       text-align: justify;
     }
   }
-}
 
-// Tech stack mobile
-@media screen and (max-width: 480px) {
+  // Tech stack mobile
   .techStack {
     display: flex;
     width: 100%;
@@ -484,10 +467,8 @@
       margin: 0 20 0 20;
     }
   }
-}
 
-// My work mobile
-@media screen and (max-width: 480px) {
+  // My work mobile
   .myWork {
     &__projects {
       display: flex;
@@ -506,6 +487,10 @@
       box-shadow: $shadow-large;
     }
   }
+}
+
+.highlight {
+  color: $color-primary;
 }
 
 .contactMe {
