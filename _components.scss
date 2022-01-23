@@ -1,4 +1,4 @@
-// Nav desktop
+// Desktop
 @media screen and (min-width: 768px) {
   .nav {
     display: flex;
@@ -53,6 +53,112 @@
     &__highlight {
       color: $color-primary;
       background: transparent;
+    }
+  }
+
+  // Landing desktop
+  .landing {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 80px;
+    margin-top: 60px;
+
+    &__header {
+      color: $color-primary;
+      font-size: 150px;
+      padding: 100 0 30 0;
+    }
+
+    &__bottom {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__subheader {
+      color: $color-secondary;
+      font-size: 50px;
+      margin-bottom: 300px;
+    }
+
+    &__image {
+      width: 300px;
+      opacity: 0.8;
+    }
+  }
+
+  // Section title desktop
+  .sectionTitle {
+    color: $color-secondary;
+    font-size: 50px;
+    margin-left: 80px;
+    padding: 50px 50px 0px 50px;
+  }
+
+  // About me desktop
+  .aboutMe {
+    &__content {
+      display: flex;
+      justify-content: center;
+      padding: 50px 50px 50px 50px;
+    }
+
+    &__image {
+      width: 250px;
+      box-shadow: $shadow-large;
+      border-radius: 20px;
+    }
+
+    &__p {
+      padding: 20px 50px 20px 90px;
+      font-size: 36px;
+      max-width: 900px;
+      color: $color-secondary;
+      font-weight: bold;
+    }
+  }
+
+  // Tech stack desktop
+  .techStack {
+    display: flex;
+    width: 100%;
+    font-size: 100px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+
+    &__icon {
+      display: flex !important;
+      background-color: $color-box;
+      width: 175px;
+      height: 125px;
+      justify-content: center;
+      color: white;
+      border-radius: 10px;
+      align-items: center;
+      box-shadow: $shadow-small;
+      margin: 0 70 0 70;
+    }
+  }
+
+  // My work desktop
+  .myWork {
+    &__projects {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+
+    &__project {
+      background-color: $color-box;
+      border-radius: 20px;
+      width: 20%;
+      height: 300px;
+      padding: 20 20 20 20;
+      margin: 50 50 150 50;
+      box-shadow: $shadow-large;
     }
   }
 }
@@ -181,40 +287,6 @@
   color: $color-primary;
 }
 
-// Landing desktop
-@media screen and (min-width: 768px) {
-  .landing {
-    display: flex;
-    width: 80vw;
-    flex-direction: column;
-    padding: 50px;
-    margin-left: 80px;
-    margin-top: 60px;
-
-    &__header {
-      color: $color-primary;
-      font-size: 150px;
-      padding: 100 0 30 0;
-    }
-
-    &__bottom {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    &__subheader {
-      color: $color-secondary;
-      font-size: 50px;
-      margin-bottom: 300px;
-    }
-
-    &__image {
-      width: 300px;
-      opacity: 0.8;
-    }
-  }
-}
-
 // Landing tablet
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .landing {
@@ -240,7 +312,6 @@
       color: $color-secondary;
       font-size: 30px;
       margin: 0 0 200 0;
-      
     }
 
     // &__image {
@@ -275,23 +346,12 @@
       color: $color-secondary;
       font-size: 30px;
       margin: 0 0 200 0;
-      
     }
 
     // &__image {
     //   width: 300px;
     //   opacity: 0.8;
     // }
-  }
-}
-
-// Section title desktop
-@media screen and (min-width: 768px) {
-  .sectionTitle {
-    color: $color-secondary;
-    font-size: 50px;
-    margin-left: 80px;
-    padding: 50px 50px 0px 50px;
   }
 }
 
@@ -315,31 +375,6 @@
   }
 }
 
-// About me desktop
-@media screen and (min-width: 768px) {
-  .aboutMe {
-    &__content {
-      display: flex;
-      justify-content: center;
-      padding: 50px 50px 50px 50px;
-    }
-
-    &__image {
-      width: 250px;
-      box-shadow: $shadow-large;
-      border-radius: 20px;
-    }
-
-    &__p {
-      padding: 20px 50px 20px 90px;
-      font-size: 36px;
-      max-width: 900px;
-      color: $color-secondary;
-      font-weight: bold;
-    }
-  }
-}
-
 // About me tablet
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .aboutMe {
@@ -354,7 +389,6 @@
       width: 200px;
       box-shadow: $shadow-large;
       border-radius: 20px;
-      
     }
 
     &__p {
@@ -382,7 +416,6 @@
       width: 200px;
       box-shadow: $shadow-large;
       border-radius: 20px;
-      
     }
 
     &__p {
@@ -392,32 +425,6 @@
       color: $color-secondary;
       font-weight: normal;
       text-align: justify;
-    }
-  }
-}
-
-// Tech stack desktop
-@media screen and (min-width: 768px) {
-  .techStack {
-    display: flex;
-    width: 100%;
-    font-size: 100px;
-    padding: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 90px;
-
-    &__icon {
-      display: flex !important;
-      background-color: $color-box;
-      width: 175px;
-      height: 125px;
-      justify-content: center;
-      color: white;
-      border-radius: 10px;
-      align-items: center;
-      box-shadow: $shadow-small;
-      margin: 0 70 0 70;
     }
   }
 }
@@ -472,28 +479,6 @@
   }
 }
 
-
-// My work desktop
-@media screen and (min-width: 768px) {
-  .myWork {
-    &__projects {
-      display: flex;
-      width: 100%;
-      justify-content: center;
-    }
-
-    &__project {
-      background-color: $color-box;
-      border-radius: 20px;
-      width: 20%;
-      height: 300px;
-      padding: 20 20 20 20;
-      margin: 50 50 150 50;
-      box-shadow: $shadow-large;
-    }
-  }
-}
-
 // My work tablet
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .myWork {
@@ -537,6 +522,7 @@
     }
   }
 }
+
 .contactMe {
   &__box {
     display: flex;
@@ -605,7 +591,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: hsla(0, 0%, 0%, 0.7)
+  color: hsla(0, 0%, 0%, 0.7);
 }
 
 .arrows {
