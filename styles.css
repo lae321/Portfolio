@@ -29,7 +29,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .nav {
     display: flex;
     height: 8vh;
@@ -252,8 +252,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 450px;
-    margin-right: 25px;
+    width: 500px;
+    margin-right: 55px;
     height: inherit;
     background: transparent;
   }
@@ -263,7 +263,7 @@ html {
   }
   .nav h2 {
     background: transparent;
-    font-size: 20px;
+    font-size: 25px;
   }
   .nav__highlight {
     color: #ec770c;
@@ -280,8 +280,8 @@ html {
   }
   .landing__header {
     color: #ec770c;
-    font-size: 100px;
-    padding: 130 0 20 0;
+    font-size: 150px;
+    padding: 120 0 20 70;
   }
   .landing__bottom {
     display: flex;
@@ -289,22 +289,21 @@ html {
   }
   .landing__subheader {
     color: #989898;
-    font-size: 30px;
-    margin: 0 0 200 0;
+    font-size: 40px;
+    margin: 0 0 200 70;
   }
 
   .sectionTitle {
     color: #989898;
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 70px;
     padding: 0px;
   }
 
   .aboutMe__content {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 70px;
   }
   .aboutMe__image {
     width: 200px;
@@ -312,7 +311,7 @@ html {
     border-radius: 20px;
   }
   .aboutMe__p {
-    padding-top: 30px;
+    padding: 0 0 0 20;
     font-size: 24px;
     max-width: 480px;
     color: #989898;
@@ -338,7 +337,7 @@ html {
     border-radius: 10px;
     align-items: center;
     box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.25);
-    margin: 0 20 0 20;
+    margin: 0 40 0 40;
   }
 
   .myWork__projects {
@@ -354,7 +353,7 @@ html {
     height: 300px;
     padding: 20 20 20 20;
     margin: 50 50 50 50;
-    box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.25);
   }
 
   .contactMe__box {
@@ -371,7 +370,7 @@ html {
     width: 320px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.25);
     margin-top: 50;
     padding: 30px;
   }

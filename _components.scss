@@ -1,5 +1,5 @@
 // Desktop
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .nav {
     display: flex;
     height: 8vh;
@@ -261,8 +261,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 450px;
-      margin-right: 25px;
+      width: 500px;
+      margin-right: 55px;
       // background-color: inherit;
       height: inherit;
       background: transparent;
@@ -276,7 +276,7 @@
 
     h2 {
       background: transparent;
-      font-size: 20px;
+      font-size: 25px;
     }
 
     &__highlight {
@@ -296,8 +296,8 @@
 
     &__header {
       color: $color-primary;
-      font-size: 100px;
-      padding: 130 0 20 0;
+      font-size: 150px;
+      padding: 120 0 20 70;
     }
 
     &__bottom {
@@ -307,8 +307,8 @@
 
     &__subheader {
       color: $color-secondary;
-      font-size: 30px;
-      margin: 0 0 200 0;
+      font-size: 40px;
+      margin: 0 0 200 70;
     }
   }
 
@@ -316,7 +316,7 @@
   .sectionTitle {
     color: $color-secondary;
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 70px;
     padding: 0px;
   }
 
@@ -324,9 +324,8 @@
   .aboutMe {
     &__content {
       display: flex;
-      flex-direction: column;
       align-items: center;
-      padding: 50px 50px 50px 50px;
+      padding: 50px 50px 50px 70px;
     }
 
     &__image {
@@ -336,7 +335,7 @@
     }
 
     &__p {
-      padding-top: 30px;
+      padding: 0 0 0 20;
       font-size: 24px;
       max-width: 480px;
       color: $color-secondary;
@@ -364,7 +363,7 @@
       border-radius: 10px;
       align-items: center;
       box-shadow: $shadow-small;
-      margin: 0 20 0 20;
+      margin: 0 40 0 40;
     }
   }
 
@@ -384,7 +383,7 @@
       height: 300px;
       padding: 20 20 20 20;
       margin: 50 50 50 50;
-      box-shadow: $shadow-large;
+      box-shadow: $shadow-small;
     }
   }
 
@@ -405,7 +404,7 @@
       width: 320px;
       height: 500px;
       border-radius: 20px;
-      box-shadow: $shadow-large;
+      box-shadow: $shadow-small;
       margin-top: 50;
       padding: 30px;
     }
