@@ -514,7 +514,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #212529;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .arrows {
