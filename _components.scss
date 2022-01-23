@@ -107,7 +107,7 @@
     &__image {
       width: 250px;
       box-shadow: $shadow-small;
-      border-radius: 20px;
+      border-radius: 10px;
     }
 
     &__p {
@@ -127,7 +127,7 @@
     padding: 50px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 
     &__icon {
       display: flex !important;
@@ -153,11 +153,11 @@
 
     &__project {
       background-color: $color-box;
-      border-radius: 20px;
+      border-radius: 10px;
       width: 20%;
       height: 300px;
       padding: 20 20 20 20;
-      margin: 50 50 100 50;
+      margin: 50 50 50 50;
       box-shadow: $shadow-small;
     }
   }
@@ -178,7 +178,7 @@
       background-color: $color-box;
       width: 320px;
       height: 500px;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: $shadow-small;
       margin-top: 50;
       padding: 30px;
@@ -188,14 +188,14 @@
       font-size: 25px;
       background-color: rgb(233, 233, 233);
       color: $color-box;
-      border-radius: 15px;
+      border-radius: 10px;
       padding: 10px;
     }
 
     &__button {
       background-color: $color-primary;
       color: $color-box;
-      border-radius: 15px;
+      border-radius: 10px;
       font-size: 25px;
       padding: 10px;
       font-weight: bold;
@@ -325,19 +325,20 @@
     &__content {
       display: flex;
       align-items: center;
-      padding: 50px 50px 50px 70px;
+      justify-items: center;
+      padding: 50px 50px 50px 50px;
+      width: 100vw;
     }
 
     &__image {
       width: 200px;
       box-shadow: $shadow-large;
-      border-radius: 20px;
+      border-radius: 10px;
     }
 
     &__p {
       padding: 0 0 0 20;
       font-size: 24px;
-      max-width: 480px;
       color: $color-secondary;
       font-weight: normal;
       text-align: justify;
@@ -351,7 +352,7 @@
     font-size: 50px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 
     &__icon {
       display: flex !important;
@@ -378,7 +379,7 @@
 
     &__project {
       background-color: $color-box;
-      border-radius: 20px;
+      border-radius: 10px;
       width: 60%;
       height: 300px;
       padding: 20 20 20 20;
@@ -403,7 +404,7 @@
       background-color: $color-box;
       width: 320px;
       height: 500px;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: $shadow-small;
       margin-top: 50;
       padding: 30px;
@@ -413,14 +414,14 @@
       font-size: 25px;
       background-color: rgb(233, 233, 233);
       color: $color-box;
-      border-radius: 15px;
+      border-radius: 10px;
       padding: 10px;
     }
 
     &__button {
       background-color: $color-primary;
       color: $color-box;
-      border-radius: 15px;
+      border-radius: 10px;
       font-size: 25px;
       padding: 10px;
       font-weight: bold;
@@ -452,7 +453,7 @@
 }
 
 // Mobile
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   .nav {
     display: flex;
     height: 8vh;
@@ -487,7 +488,7 @@
       justify-content: space-between;
       align-items: center;
       width: 450px;
-      margin-right: 5px;
+      margin: 0 5 0 5;
       // background-color: inherit;
       height: inherit;
       background: transparent;
@@ -540,7 +541,7 @@
   // Section title mobile
   .sectionTitle {
     color: $color-secondary;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 20px;
     padding: 0px;
   }
@@ -557,7 +558,7 @@
     &__image {
       width: 200px;
       box-shadow: $shadow-small;
-      border-radius: 20px;
+      border-radius: 10px;
     }
 
     &__p {
@@ -604,7 +605,7 @@
 
     &__project {
       background-color: $color-box;
-      border-radius: 20px;
+      border-radius: 10px;
       width: 60%;
       height: 300px;
       padding: 20 20 20 20;
@@ -629,7 +630,7 @@
       background-color: $color-box;
       width: 320px;
       height: 450px;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: $shadow-small;
       margin-top: 50;
       padding: 30px;
@@ -639,14 +640,14 @@
       font-size: 20px;
       background-color: rgb(233, 233, 233);
       color: $color-box;
-      border-radius: 15px;
+      border-radius: 10px;
       padding: 10px;
     }
 
     &__button {
       background-color: $color-primary;
       color: $color-box;
-      border-radius: 15px;
+      border-radius: 10px;
       font-size: 25px;
       padding: 10px;
       font-weight: bold;
